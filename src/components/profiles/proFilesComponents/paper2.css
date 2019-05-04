@@ -1,0 +1,93 @@
+#paper{
+    background-color:white;
+    margin:0 auto 0 auto;
+    position:relative;top:-222px;
+}
+
+.mainContent{
+    width:600px; height:1000px;
+    margin:0 auto 0 220px;
+}
+
+#inputImg{
+    width:0;height:0;
+}
+
+/*字段信息*/
+.default{
+    color:lightgray;
+    font-size:150%;
+}
+.pTitle{
+    float:left;
+}
+#nameSet .pName{
+    font-size:180%;
+    font-weight:bold;
+    padding-left:80px;
+    margin-bottom:150px;
+    cursor:Pointer;
+    text-align:left;
+}
+.fieldSets{
+    margin: 60px auto 60px 20px;
+}
+.fieldSets p{
+    color:	#800000;
+    font-size:150%;
+    padding-right:50px;
+    cursor:pointer;
+    text-align:right;
+}
+.fieldSets .pTitle{
+    color:FireBrick;
+    position:relative; right:100px;top:5px;
+    font-size:120%;
+    font-weight:bold;
+}
+
+/*input框样式*/
+#nameInput .inputBox{
+    margin-bottom:150px;
+}
+.button{
+    width:60px;height:35px;
+    margin-left:15px;
+    background-color:FireBrick;
+    color:white;
+    border-radius:5px;
+    border:FireBrick solid 1px;
+    cursor:pointer;
+}
+.inputs{
+    margin: 60px auto 60px 50px;
+}
+.inputBox{
+    width:250px;height:30px;
+    border-radius:5px;
+    border:lightgray solid 1px;
+    padding-left:10px;
+}
+#industryInput .inputBox{
+    width:300px;
+}
+
+.inputs .inputJob{
+    margin-left:5px;
+    width:200px;
+}
+
+.inputs .inputEdu{
+    margin-left:5px;
+    width:110px;
+}
+.GenderInput{
+    width:25px;height:25px;
+    margin-right:10px;
+}
+.GenderDiv label{
+    font-size:120%;
+    margin: auto 40px 10px auto;
+    color:FireBrick;
+}
+

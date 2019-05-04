@@ -1,0 +1,45 @@
+#container{
+    width:700px;
+    margin:300px auto auto auto;
+}
+form{
+    margin-left:200px;
+}
+
+.inputBox{
+    width:270px;height:35px;
+    margin-bottom:15px;
+    padding-left:10px;
+    border-radius:5px;
+    border:lightgray solid 1px;
+}
+#identifyCodeBox{
+    width:135px;
+}
+#identifyCodeButton{
+    width:125px;height:37px;
+    font-size:120%;
+    background-color:lightgray;
+    color:white;
+    border-radius:5px;
+    border:lightgray solid 1px;
+    margin-left:10px;
+}
+label{
+    font-size:90%;
+}
+label a{
+    margin-left:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#finish{
+    width:285px;height:50px;
+    font-size:130%;
+    background-color:FireBrick;
+    color:white;
+    border-radius:5px;border:1px solid FireBrick;
+    margin-top:20px;
+    cursor:pointer;
+}

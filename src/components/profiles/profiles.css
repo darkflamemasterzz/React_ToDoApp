@@ -1,0 +1,40 @@
+html{
+    background-color:white;
+}
+.profiles{
+    background-color:#DCDCDC;
+    width:900px;
+    /*height:1490px;*/
+    margin:100px auto 50px auto;
+    box-shadow:1px 1px 10px FireBrick;
+}
+
+.photoBorder{
+    background-color:white;
+    width:180px;height:180px;
+    padding-top:10px;
+    position:relative;top:-80px;left:40px;
+    z-index:99;
+}
+.photo{
+    background:FireBrick url("../../img/camera_white.png") no-repeat 50% 50%;
+    background-size:50%;
+    color:white;
+    font-weight:bolder;
+    opacity:0.8;
+    width:160px;height:160px;
+    margin: auto 10px auto 10px;
+    cursor:pointer;
+    /*position:relative;top:-80px;left:20px;*/
+
+}
+/*#inputImg{
+    width:0;height:0;
+}*/
+.bgImg{
+    background-color:FireBrick;
+    opacity:1;
+    width:900px;height:300px;
+    position:relative;left:0;top:0;
+    /*box-shadow: -1px 1px 5px gray;*/
+}
