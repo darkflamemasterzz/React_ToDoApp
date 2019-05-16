@@ -1,0 +1,36 @@
+#listBar .listBarTitle{
+    display: inline-block;
+    color: white;
+    width:31px; height:31px;
+    background:url('../../img/add.png') no-repeat;
+    background-size:cover;
+    font-size:80%;
+    margin-right:20px;
+    cursor:pointer;
+}
+
+#listBar span:not(.listBarTitle):not(.TitleDel){
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    position:relative;
+    top: -7px;
+    margin-left:10px;
+    opacity: 0.7;
+    padding:4px;
+}
+#listBar .TitleDel{
+    display: none;
+    background:url('../../img/del2.png') no-repeat;
+    background-size: cover;
+    width:15px;height:15px;
+    margin-left:10px;
+    opacity:0.7;
+}
+#listBar .TitleDel:hover{
+    opacity:1;
+}
+
+#listBar span:not(.listBarTitle):hover{
+    opacity: 1;
+}

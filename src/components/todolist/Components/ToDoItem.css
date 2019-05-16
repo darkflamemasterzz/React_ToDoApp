@@ -1,0 +1,44 @@
+
+.ItemCheckbox{
+    cursor:pointer;
+    display:inline-block;
+    border: 1px lightgray solid;
+    border-left:none;
+    width: 40px; height: 40px;
+    margin-right:5px;
+    float:left;
+    background: url("../../../img/ticked.png") no-repeat;
+    background-size:cover;
+}
+
+.singleItem{
+    cursor:pointer;
+    border: 1px lightgray solid;
+    border-left:none;border-right:none;
+    height:30px;
+    padding-top:10px;
+    vertical-align:center;
+    margin:0;
+    font-size:80%;
+    color:gray;
+}
+
+.singleItem .ItemText{
+    width:250px;
+    display: inline-block;
+    overflow:hidden;
+    white-space: nowrap;  
+    text-overflow:ellipsis; 
+}
+.singleItem .tag{
+    display: inline-block;
+    background-color:lightgray;
+    color:white;
+    font-size:70%;
+    float:right;
+    margin-right:2px;margin-left:2px;
+    padding-left:1px; padding-right:1px;padding-bottom:1px;
+}
+
+
+

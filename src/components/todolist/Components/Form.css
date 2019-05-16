@@ -1,0 +1,32 @@
+form{
+    border-radius:6px;
+    box-shadow:0px 4px 5px gray;
+    background-color:white;
+    width:400px; height:500px;
+    padding:0; margin:0 auto 0 auto;
+    position: relative;
+    top:0px;
+}
+.mainText{
+    margin: 50px auto 20px 40px;
+    width:300px;height:30px;
+    padding-left:10px;
+}
+.p_select{
+    margin:20px auto auto 40px;   
+}
+.p_select span{
+    font-size:80%;
+}
+.p_select select{
+    margin-left:20px;
+    width:240px;
+}
+
+.formButton{
+    margin: 50px auto auto 303px;
+}
+.formButton input{
+    cursor:pointer;
+    width:50px;height:30px;
+}

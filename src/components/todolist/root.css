@@ -1,0 +1,49 @@
+.TempBackground{
+    background-color:black;
+    opacity:0.7;
+    position:fixed;
+    left:0; top:0;
+    z-index: 1;
+    width:1750px;height:1000px;
+    margin:0;
+}
+
+.Title_ToDoList{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    margin-right: 5px;
+    border: white 1px solid;
+}
+.AddToDoListTitle{
+    height: 35px; width: 50px;
+    background-color: firebrick;
+    border: firebrick 1px solid;
+    color: white;
+}
+
+.Title_InputDIV{
+    z-index:2;
+    width:330px;
+    position:fixed; left:670px; top:250px;
+}
+
+/*search engine*/
+#___gcse_0 .gsc-control-cse.gsc-control-cse-zh-CN{
+    margin: 250px auto auto auto;
+    width: 400px;
+    height: 0;
+    padding:0;
+    border:0;
+}
+.gsc-control-wrapper-cse{
+    width: 300px;
+    height: 40px;
+}
+.gsc-search-box.gsc-search-box-tools{
+    width: 300px;
+    height: 0; 
+}
+#gsc-iw-id1{
+    width:300px;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: lightblue;
+}
+
+#container{
+    background-color:rgb(238, 229, 229);
+    /* border:1px solid rgb(238, 229, 229); */
+    border-radius:6px;
+    /* box-shadow: 0px 0px 4px gray; */
+    width:450px;height:600px;
+    position:fixed;
+    right:35%;top:10%;
+    z-index:2;
+}
+
+.todoForm{
+    border:1px solid black;
+    width:400px; height:500px;
+    position:absolute;
+    right:14%;top:10%;
+}
+
+
+.TestBackground{
+    background-color:rgb(238, 229, 229);
+    width:450px;height:550px;
+    position:relative;
+    top:100px;
+    border-radius:6px;
+    box-shadow:0px 4px 5px gray;
+    z-index:2;
+}
+
+.TestBackground .ToDoItemsContainer{
+    border-radius:6px;
+    box-shadow:0px 4px 5px gray;
+    background-color:white;
+    width:400px; height:500px;
+    padding:0; margin:0 auto 0 auto;
+    overflow: auto;
+}
+
+.del{
+    cursor:pointer;
+    background:url('../../img/bin.png') -5px 0 no-repeat;
+    z-index:2;
+    background-size: cover;
+    position:relative;
+    left:410px; top:55px;
+    display: inline-block;
+    width:35.5px; height:42px;
+}

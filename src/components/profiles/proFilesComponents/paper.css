@@ -1,0 +1,45 @@
+.paper{
+    background-color:white;
+    width:900px;/*height:1176px;*/
+    margin:0 auto 0 auto;
+    position:relative;top:-222px;
+    /*box-shadow: -1px -1px 5px gray;*/
+
+}
+
+.mainContent{
+    width:600px; height:1000px;
+    margin:0 auto 0 220px;
+}
+.mainContent .nameEdit{
+    cursor:pointer;
+    font-size:150%;
+    font-weight:bold;
+    padding-left:110px;padding-top:10px;
+}
+.mainContent .nameHover{
+    background: url("../../../img/redAdd.png") no-repeat 10% 100%;
+    background-size:30px 30px;
+}
+#inputImg{
+    width:0;height:0;
+}
+
+
+/*form部分*/
+.inputName{
+    margin-left:50px;
+    padding-left:10px;
+    width:290px;height:35px;
+    border:1px solid lightgray;
+    border-radius:5px;
+}
+.changeNameSubmit{
+    cursor:pointer;
+    height:35px;
+    margin-left:10px;
+    background-color:red;
+    color:white;
+    border:1px solid red;
+    border-radius:5px;
+}

@@ -1,0 +1,54 @@
+#Container{
+    height:0;
+}
+.bookMarkContainer{
+    transition-duration:0.5s;
+    position:relative;
+    left:360px;
+    width:100px;height:26px;
+    top: 150px;
+}
+.bookmark{
+    color:white;
+    font-size:70%;
+    cursor:pointer;
+    background-color:red;
+    width:100px;
+    height:22px;
+    padding-left:10px;
+    padding-top:4px;
+  }
+  
+.triangle{
+    cursor:pointer;
+    width: 0;
+    height: 0;
+    border-top: 13px solid red;
+    border-right: 20px solid transparent;
+    border-bottom: 13px solid red;
+    position: relative;
+    left:110px;
+    top:-26px;
+}
+#green{
+    top:160px;
+}
+#green .bookmark{
+    background-color:green;
+}
+#green .triangle{
+    /* top:10px; */
+    border-top: 13px solid green;
+    border-bottom: 13px solid green;
+}
+#blue{
+    top:170px;
+}
+#blue .bookmark{
+    background-color:blue;
+}
+#blue .triangle{
+    /* top:20px; */
+    border-top: 13px solid blue;
+    border-bottom: 13px solid blue;
+}
